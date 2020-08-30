@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alert-Box</title>
+<style> 
+	body
+	{
+		margin: 20%;
+		text-align: center;
+background-image: url(rose.jpg);
+background-repeat: no-repeat;
+background-size: 1366px;
+height: 100%;
+	}
+
+.button
+{
+	background-color: #900C3F;
+	color: white;
+	border-style: none;
+	height: 25px;
+	width: 80px;
+	font-size: 15px;
+	margin-top: 10px;
+border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2 style="color: white;">Write The Name Of Your Love One's</h2>
+
+
+<input id="str">
+<br>
+<button class="button" onclick="myFunction()">Press Me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("str").value;
+
+  {
+    window.alert('I Love U ' + x);
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
